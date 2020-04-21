@@ -2,7 +2,7 @@
   "name": "shotstackapi",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,9 +11,16 @@
     "url": "git+https://github.com/RohitRajP/shotStackAPI.git"
   },
   "author": "Rohit Raj",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/RohitRajP/shotStackAPI/issues"
   },
-  "homepage": "https://github.com/RohitRajP/shotStackAPI#readme"
+  "homepage": "https://github.com/RohitRajP/shotStackAPI#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "shotstack-sdk": "0.0.17"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
 }
